@@ -4,7 +4,6 @@
 
 In this project ve create the server with using express and we use the 3 end point.These are;
 
-
 - /aktorler
 
 - /aktorler:id
