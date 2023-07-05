@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: exppresjs
+  name: exppressjs
 spec:
   replicas: 1
   selector:
@@ -10,11 +10,11 @@ spec:
   template:
     metadata:
       labels:
-        app: exppresjs
+        app: exppressjs
     spec:
       containers:
       - name: expressjs
-        image: enisaydogan/expressjs:v2
+        image: gcr.io/enisaydogan/expressjs:latest
         ports:
         - containerPort: 5000
         env:
