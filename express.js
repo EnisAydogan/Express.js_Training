@@ -5,8 +5,11 @@ const data  = require('./data.js'); //get the data.js file
 const server = express(); //server created
 const port = 5000;
 
+
+
 server.get("/", (req,res) => {
     res.send("Express'ten merhaba");
+    
 
 });
 
