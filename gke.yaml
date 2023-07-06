@@ -27,9 +27,9 @@ kind: "Service"
 metadata:
   name: "gcp-devops-gke-service"
   namespace: "gcp-devops-prod"
-spec:
   labels:
     app.kubernetes.io/managed-by: "gcp-cloud-build-deploy"
+spec:
   ports:
     - protocol: "TCP"
       port: 80
