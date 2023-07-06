@@ -14,7 +14,7 @@ module.exports = [
     {
         id: 3,
         isim: "Adile Naşit",
-        filmler: ["Davaro", "Neşeli Günler", "Süt Kardeşler"],
+        filmler: ["Davaro", "Neşeli Günler", "Süt Kardeşler","Sütaş"],
     },
 
 ];
