@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: expressjs
-        image: gcr.io/peaceful-campus-388209/gcpdevops@sha256:e809dff85aa53ee9e33ca0e778122fdb845cd38cca81a8590d5023dc69244ee9
+        image: gcr.io/$PROJECT_ID/gcpdevops/express:latest
         ports:
         - containerPort: 5000
         env:
