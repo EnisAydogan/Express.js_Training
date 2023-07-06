@@ -12,6 +12,13 @@ We import the data from data.js.This data format is JSON. If the enter wrong id 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-We create dockerfile for creating image.As you can see in the docker file app expose 5000 port.
+You can automate the deployment of your application to GKE by creating a trigger in Cloud Build. You can configure triggers to build and deploy images whenever you push changes to your code.According to cloudbuild.yaml, 
 
-According to pipeline,jenkinsfile help us to automatically taking the build of my app.
+1) Taking the build of app
+
+2) Push the Artifact Registry on GCP
+
+3) Deploy the container image to GKE
+
+     
+
