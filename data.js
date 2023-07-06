@@ -16,10 +16,5 @@ module.exports = [
         isim: "Adile Naşit",
         filmler: ["Davaro", "Neşeli Günler", "Süt Kardeşler","Sütaş"],
     },
-    {
-        id:4,
-        isim: "Hakan Aydoğan",
-        arabalar: ["Ford Puma","Çıtır hasarlı Ford ecosport", "Taksi çıkması symbol"]
-    },
 
 ];
